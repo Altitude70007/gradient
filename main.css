@@ -1,0 +1,19 @@
+.body{
+    width: 980px;
+    height: 99vw;
+}
+
+.circle{
+    content: '';
+    top: 100px; left: 300px;
+    position: relative; display: block;
+    border-radius: 50%;
+    width: 400px; height: 400px;
+    background-image: conic-gradient(from 90deg, rgb(0,106,255) 10%, rgb(201,97,252), rgb(95,255,255) 34%, rgb(102,249,98) 65%, rgb(255,96,96) 100%, rgb(255,105,106) 100%);
+    /* background: conic-gradient(at 50% 50%, #fff, #000);
+    background: conic-gradient(from 90deg, #fff, #000);
+    background: conic-gradient(from 90deg at center, #fff, #000);
+    background: conic-gradient(#fff 0%, #000 100%);
+    background: conic-gradient(#fff 0deg, #000 1turn); */
+}
+
